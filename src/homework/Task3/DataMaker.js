@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react"
-import Posts from "./Posts"
 
 
 const DataMaker = ({url, renderDataUrl}) => {
