@@ -3,7 +3,7 @@
 const Post = ({title, completed}) => {
     
     return (
-        <div>Title={title} - Completed={completed}</div>
+        <div>{`Title: ${title} - completed: ${completed}`}</div>
     )
 }
 export default Post 
