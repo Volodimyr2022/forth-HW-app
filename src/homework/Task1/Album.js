@@ -1,5 +1,5 @@
 import React from "react";
-import { withToggler } from "../HOK/withToggler";
+import { withToggler } from "../HOC/withToggler";
 import albumImg from "../../Img/92c952.png";
 import buttonImg from "../../Img/9484251.png"
 
