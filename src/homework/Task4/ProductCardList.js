@@ -7,12 +7,13 @@ export const ProductCardList = ({ products }) => {
             {products.map(product => (
                 <ProductCard 
                     id={product.id}
-                    name={product.name}
-                    description={product.description}
+                    title={product.title}
                     price={product.price}
-                    image={product.image}
+                    description={product.description}
                     category={product.category}
-                    rating={product.rating}
+                    image={product.image}
+                    rate={product.rating.rate}
+                    count={product.rating.count}
                     key={product.id}
                 />
             ))}

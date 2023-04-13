@@ -2,7 +2,8 @@ import React from "react";
 import { ProductCardList } from "./ProductCardList";
 import { ProductMaker } from "./ProductMaker";
 
-const PRODUCT_URL = "https://my.api.mockaroo.com/coffee.json?key=778301b0"
+
+const PRODUCT_URL = "https://fakestoreapi.com/products"
 
 export const TaskFour = () => {
     return (
