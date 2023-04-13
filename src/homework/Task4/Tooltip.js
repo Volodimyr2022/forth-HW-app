@@ -18,7 +18,7 @@ export const Tooltip = ({renderTooltip, content}) => {
     }
 
     const handleMouseMove = (e) => setPosition({x: e.clientX, y: e.clientY})
-    console.log(position.x)
+    console.log(position.x, position.y)
 
     return(
         <div>
