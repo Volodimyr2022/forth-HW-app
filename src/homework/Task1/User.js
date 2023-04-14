@@ -1,5 +1,5 @@
 import React from "react";
-import { withToggler } from "../HOK/withToggler"; 
+import { withToggler } from "../HOC/withToggler"; 
 
 const User = ({username, email, city, street, suite, phone, company, toggled, changeToggle}) => {
     return (

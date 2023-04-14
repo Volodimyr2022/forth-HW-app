@@ -43,6 +43,12 @@ code {
   height: 100px;
   background-color: orange;
   border-radius: 20px;
-
 }
+
+.navbar {
+  display: flex;
+  height: 20px;
+}
+
+
 

@@ -8,7 +8,7 @@ export const ProductCard = ({title, description, image, price, rate}) => {
             <h2>{title}</h2>
             <p>{description}</p>
             <Tooltip 
-                renderTooltip = {(handleMouseMove, toggleTooltipShown) => {
+                renderTooltip = {(toggleTooltipShown, handleMouseMove) => {
                     return (
                         <img
                         src={image}
